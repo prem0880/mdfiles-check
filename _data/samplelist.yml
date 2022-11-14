@@ -1,11 +1,11 @@
-docs_list_title: ACME Documentation
+docs_list_title: GITHUB PAGES DEMO REPO
 docs:
 
 - title: Introduction
   url: testfile.html
 
-- title: Configuration
+- title: Introduction To Angular
   url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
 
-- title: Deployment
-  url: deployment.html
+- title: Introduction To Npm And Node
+  url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.md
