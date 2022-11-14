@@ -3,6 +3,9 @@ layout: default
 title: 01-IntroductionToAngular
 ---
 
+<h1> {{ page.title }} </h1>
+
+
 1. Demonstrate a basic understanding of Angular or What is Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
