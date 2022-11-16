@@ -10,7 +10,9 @@ title: Test Md File
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
 <details>
-
+<summary><b>Show Answer</b></summary>
+<blockquote>
+  
   <ul>
     <li>We use Node.js and npm as tools for building Angular or React apps.</li> 
     <li>Angular is a front-end framework used to create a web application and is written in **Typescript**.</li>
@@ -18,7 +20,9 @@ title: Test Md File
     <li>We use Node.js and npm to perform this compilation, then we can deploy them in production.</li>
   </ul>
   
+</blockquote>  
 </details>
+
 ---
 
 2. How do you install node and npm?
