@@ -9,7 +9,7 @@ title: Test Md File
 
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
   
   - We use Node.js and npm as tools for building Angular or React apps.
