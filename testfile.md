@@ -20,7 +20,6 @@ title: Test Md File
   
 </blockquote>  
 </details>
-
 ---
 
 2. How do you install node and npm?
@@ -38,7 +37,6 @@ title: Test Md File
 
 </blockquote>
 </details>
-
 ---
 
 3. What is the use of Node.js?
