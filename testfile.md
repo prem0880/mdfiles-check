@@ -11,16 +11,12 @@ title: Test Md File
 
 <details>
 <summary><b>Show Answer</b></summary>
-<blockquote>
   
-  <ul>
-    <li>We use Node.js and npm as tools for building Angular or React apps.</li> 
-    <li>Angular is a front-end framework used to create a web application and is written in **Typescript**.</li>
-    <li>The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file). </li>
-    <li>We use Node.js and npm to perform this compilation, then we can deploy them in production.</li>
-  </ul>
+  - We use Node.js and npm as tools for building Angular or React apps.
+  - Angular is a front-end framework used to create a web application and is written in **Typescript**.
+  - The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file).
+  - We use Node.js and npm to perform this compilation, then we can deploy them in production.
   
-</blockquote>  
 </details>
 
 ---
