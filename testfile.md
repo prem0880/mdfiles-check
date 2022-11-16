@@ -11,14 +11,13 @@ title: Test Md File
 
 <details>
 <summary><b>Show Answer</b></summary>
-
+<blockquote>
 - We use Node.js and npm as tools for building Angular or React apps. 
 - Angular is a front-end framework used to create a web application and is written in **Typescript**. 
 - The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file). 
 - We use Node.js and npm to perform this compilation, then we can deploy them in production.
-
+</blockquote>
 </details>
-  
 ---
 
 2. How do you install node and npm?
@@ -36,7 +35,6 @@ title: Test Md File
 
 </blockquote>
 </details>
-  
 ---
 
 3. What is the use of Node.js?
@@ -52,9 +50,7 @@ title: Test Md File
 - Global companies like Netflix, Facebook, Walmart Linkedin, Uber, etc., use Node.js for building their applications. 
   
 </blockquote>
-
 </details>
-  
 ---
 
 4. What is NPM?
@@ -72,9 +68,7 @@ title: Test Md File
     - Provides command-line utility to install Node.js packages and also manages Node.js versions and dependencies  
   
 </blockquote>
-
-</details>
-  
+</details>  
 ---
 
 5. What is the difference between Angular and Node.js?
@@ -92,9 +86,7 @@ title: Test Md File
 | Used for building single-page, client-side web applications | Used for building fast and scalable server-side networking applications |
  
 </blockquote>
-
 </details>
-  
 ---
 
 6. How do you check whether Node.js is installed successfully in your system?
@@ -108,8 +100,7 @@ title: Test Md File
 To check that node.js is installed, open the power shell or command prompt (cmd) and type `node –v`. If the node is installed tall properly in your system print something like that v4.4.3.
 
 </blockquote>
-</details>
-  
+</details> 
 ---
  
 7. What kind of information we can find in the `package.json` file?
@@ -123,8 +114,7 @@ To check that node.js is installed, open the power shell or command prompt (cmd)
  `package.json` file is used to store the metadata related to the project such as a project description, the version of the project in a particular distribution, and license information, as well as to store the list of dependency packages.
 
 </blockquote>
-</details>
-  
+</details>  
 ---
  
 8. Differentiate `dependencies` and `devDependencies` in the `package.json` file?
@@ -141,7 +131,6 @@ In `package.json`, regular `dependencies` are packages that are required for you
 
 </blockquote>
 </details>
-  
 ---
  
 9. What happens if I run `npm install` in the terminal?
@@ -156,7 +145,6 @@ The
 
 </blockquote>
 </details>
-  
 ---
  
 10. What happens if I run `npm uninstall` in the terminal
@@ -170,11 +158,10 @@ The
 `npm uninstall` command is used to remove installed npm packages on your computer.
 
 </blockquote>
-</details>
-  
+</details>  
 ---
  
-11. Differentiate between the `npm update and `npm update -g` commands?
+11. Differentiate between the `npm update` and `npm update -g` commands?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -192,7 +179,6 @@ If no package name is specified, all packages in the specified location (global 
   
 </blockquote>
 </details>
-  
 ---
  
 12. What happens if I run `npm init` in the terminal?
@@ -207,7 +193,6 @@ The `npm init` command in the JSON language creates a package.json file for your
 
 </blockquote>
 </details>
-  
 ---
  
 13. Can I run the angular application using the `npm start` command?
@@ -221,7 +206,8 @@ The `npm init` command in the JSON language creates a package.json file for your
 
 </blockquote>
 </details>
- 
+---
+
 14. Why do we need a `package.json` file?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -234,7 +220,8 @@ The `npm init` command in the JSON language creates a package.json file for your
 
 </blockquote>
 </details>
-  
+---
+
 15. Where you can find the `package.json` file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -247,5 +234,4 @@ The `package.json` file is normally present in the root directory of a project f
 
 </blockquote>
 </details>
-  
 ---
