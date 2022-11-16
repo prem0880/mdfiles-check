@@ -9,15 +9,11 @@ title: Test Md File
 
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
-<details>
-<summary><b>Show Answer</b></summary>
-<blockquote>
 - We use Node.js and npm as tools for building Angular or React apps. 
 - Angular is a front-end framework used to create a web application and is written in **Typescript**. 
 - The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file). 
 - We use Node.js and npm to perform this compilation, then we can deploy them in production.
-</blockquote>
-</details>
+
 ---
 
 2. How do you install node and npm?
