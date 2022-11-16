@@ -11,15 +11,16 @@ title: Test Md File
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+
   
 - We use Node.js and npm as tools for building Angular or React apps.
 - Angular is a front-end framework used to create a web application and is written in **Typescript**.
 - The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file).
 - We use Node.js and npm to perform this compilation, then we can deploy them in production.
   
-</blockquote>  
+
 </details>
+
 ---
 
 2. How do you install node and npm?
@@ -28,15 +29,16 @@ title: Test Md File
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+
 
 - Download Node.js from nodejs.org and install it. 
 - The npm CLI gets installed with Node.js by default. 
 - To check that you have installed npm, run `npm -v` in a  terminal. 
 - **NOTE:** npm can install packages in a node_modules folder in angular working directory.
 
-</blockquote>
+
 </details>
+
 ---
 
 3. What is the use of Node.js?
