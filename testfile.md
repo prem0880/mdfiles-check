@@ -45,9 +45,9 @@ title: Test Md File
 
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
-<details markdown="2">
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
   
 - Node.js is an open-source, cross-platform run-time environment built on Chrome's V8 JavaScript engine.
 - Node.js is used to execute JavaScript code outside of a web browser. It provides a library of various JavaScript modules, which simplifies the development of web applications.
