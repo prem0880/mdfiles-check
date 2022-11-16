@@ -11,12 +11,14 @@ title: Test Md File
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
+<blockquote>
   
-  - We use Node.js and npm as tools for building Angular or React apps.
-  - Angular is a front-end framework used to create a web application and is written in **Typescript**.
-  - The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file).
-  - We use Node.js and npm to perform this compilation, then we can deploy them in production.
+- We use Node.js and npm as tools for building Angular or React apps.
+- Angular is a front-end framework used to create a web application and is written in **Typescript**.
+- The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file).
+- We use Node.js and npm to perform this compilation, then we can deploy them in production.
   
+</blockquote>  
 </details>
 
 ---
@@ -25,7 +27,7 @@ title: Test Md File
 
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -36,13 +38,14 @@ title: Test Md File
 
 </blockquote>
 </details>
+
 ---
 
 3. What is the use of Node.js?
 
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
   
@@ -52,13 +55,14 @@ title: Test Md File
   
 </blockquote>
 </details>
+
 ---
 
 4. What is NPM?
 
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
  
@@ -70,13 +74,14 @@ title: Test Md File
   
 </blockquote>
 </details>  
+
 ---
 
 5. What is the difference between Angular and Node.js?
 
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -88,13 +93,14 @@ title: Test Md File
  
 </blockquote>
 </details>
+
 ---
 
 6. How do you check whether Node.js is installed successfully in your system?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -102,13 +108,14 @@ To check that node.js is installed, open the power shell or command prompt (cmd)
 
 </blockquote>
 </details> 
+
 ---
  
 7. What kind of information we can find in the `package.json` file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -116,13 +123,14 @@ To check that node.js is installed, open the power shell or command prompt (cmd)
 
 </blockquote>
 </details>  
+
 ---
  
 8. Differentiate `dependencies` and `devDependencies` in the `package.json` file?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -132,13 +140,14 @@ In `package.json`, regular `dependencies` are packages that are required for you
 
 </blockquote>
 </details>
+
 ---
  
 9. What happens if I run `npm install` in the terminal?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 The 
@@ -146,13 +155,14 @@ The
 
 </blockquote>
 </details>
+
 ---
  
 10. What happens if I run `npm uninstall` in the terminal
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>The 
 
@@ -160,17 +170,18 @@ The
 
 </blockquote>
 </details>  
+
 ---
  
 11. Differentiate between the `npm update` and `npm update -g` commands?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-The `npm update command is used to update the node package manager to the latest version.
+The `npm update` command is used to update the node package manager to the latest version.
   
 It will also install missing packages.
 
@@ -180,13 +191,14 @@ If no package name is specified, all packages in the specified location (global 
   
 </blockquote>
 </details>
+
 ---
  
 12. What happens if I run `npm init` in the terminal?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -194,12 +206,13 @@ The `npm init` command in the JSON language creates a package.json file for your
 
 </blockquote>
 </details>
+
 ---
  
 13. Can I run the angular application using the `npm start` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -207,13 +220,14 @@ The `npm init` command in the JSON language creates a package.json file for your
 
 </blockquote>
 </details>
+
 ---
 
 14. Why do we need a `package.json` file?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -221,13 +235,14 @@ The `npm init` command in the JSON language creates a package.json file for your
 
 </blockquote>
 </details>
+
 ---
 
 15. Where you can find the `package.json` file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
@@ -235,4 +250,5 @@ The `package.json` file is normally present in the root directory of a project f
 
 </blockquote>
 </details>
+
 ---
