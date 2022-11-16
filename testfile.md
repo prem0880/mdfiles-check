@@ -45,7 +45,7 @@ title: Test Md File
 
 ![Easy](https://raw.githubusercontent.com/AbySebastin/mdfiles-check/1760fa08eab534d13e8abc0c3f9518ad7dfddbaf/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1">
+<details markdown="2">
 <summary><b>Show Answer</b></summary>
 <blockquote>
   
@@ -55,7 +55,6 @@ title: Test Md File
   
 </blockquote>
 </details>
-
 ---
 
 4. What is NPM?
