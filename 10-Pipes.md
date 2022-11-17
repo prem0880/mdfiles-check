@@ -214,7 +214,7 @@ The output will be like
 
  For example,
  ```html
-<p>{{ "abcdefghijk" | slice: 3,7}}  </p>
+<p>{{ "abcdefghijk" | slice: 3,7 }}  </p>
 <!-- output: 'defg' -->
 ```
 
@@ -261,8 +261,8 @@ Some of the built-in pipes are:
 <li>{{"Pipes" | uppercase}}</li>
 <li>{{"Pipes" | lowercase}} </li>
 <li>{{dob}}</li>
-<li>{{dob.date}}</li>
-<li>{{dob.date |uppercase }}</li>
+<li>{{dob | date }}</li>
+<li>{{dob | date | uppercase }}</li>
 <li>{{17.81922 | number }}</li>
 <li>{{17.819227546354 | number: '3.4-6' }}</li>
 <li>{{17.81922 | number : '2.0-0'}}</li>
@@ -296,7 +296,7 @@ Some of the built-in pipes are:
 <!-- OUTPUT Date Of birth : MAY 19, 1997 -->  
  ```
    
- Here we're chaining pipes, chaining the `date` pipe and `uppercase` pipe. If, we just have only date pipe `{{ birthday.date }}` the output will be like `Aug 3, 2022`. Since the excepted output has Month is in uppercase, there is a need to transform month to uppercase. so will chain the uppercase pipe after the date pipe. 
+ Here we're chaining pipes, chaining the `date` pipe and `uppercase` pipe. If, we just have only date pipe `{{ birthday | date }}` the output will be like `Aug 3, 2022`. Since the excepted output has Month is in uppercase, there is a need to transform month to uppercase. so will chain the uppercase pipe after the date pipe. 
 
 </blockquote>
 </details>
