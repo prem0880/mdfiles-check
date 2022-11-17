@@ -260,9 +260,9 @@ Some of the built-in pipes are:
 <li>{{"Pipes"}} </li>
 <li>{{"Pipes" | uppercase}}</li>
 <li>{{"Pipes" | lowercase}} </li>
-<li>{{dob}}</li>
-<li>{{dob | date }}</li>
-<li>{{dob | date | uppercase }}</li>
+<li>{{"Fri Jan 15 1999 00:00:00 GMT+5.30 (India Standard Time)"}}</li>
+<li>{{"Fri Jan 15 1999 00:00:00 GMT+5.30 (India Standard Time)" | date }}</li>
+<li>{{"Fri Jan 15 1999 00:00:00 GMT+5.30 (India Standard Time)" | date | uppercase }}</li>
 <li>{{17.81922 | number }}</li>
 <li>{{17.819227546354 | number: '3.4-6' }}</li>
 <li>{{17.81922 | number : '2.0-0'}}</li>
