@@ -296,7 +296,7 @@ Some of the built-in pipes are:
 <!-- OUTPUT Date Of birth : MAY 19, 1997 -->  
  ```
    
- Here we're chaining pipes, chaining the `date` pipe and `uppercase` pipe. If, we just have only date pipe `{{ birthday | date }}` the output will be like `Aug 3, 2022`. Since the excepted output has Month is in uppercase, there is a need to transform month to uppercase. so will chain the uppercase pipe after the date pipe. 
+ Here we're chaining pipes, chaining the `date` pipe and `uppercase` pipe. If, we just have only date pipe `{{ birthday.date }}` the output will be like `Aug 3, 2022`. Since the excepted output has Month is in uppercase, there is a need to transform month to uppercase. so will chain the uppercase pipe after the date pipe. 
 
 </blockquote>
 </details>
