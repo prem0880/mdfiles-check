@@ -210,11 +210,11 @@ The output will be like
 
 <details>
 <summary><b>Show Answer</b></summary>
-<blockquote markdown="1">
+<blockquote>
 
  For example,
  ```html
-<p>{{ "abcdefghijk" | slice:3:7 }}  </p>
+<p>{{ "abcdefghijk" | slice: 3,7}}  </p>
 <!-- output: 'defg' -->
 ```
 
