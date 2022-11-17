@@ -214,7 +214,7 @@ The output will be like
 
  For example,
  ```html
-<p>{{ abcdefghijk | slice:3:7 }}  </p>
+<p>{{ "abcdefghijk" | "slice:3:7" }}  </p>
 <!-- output: 'defg' -->
 ```
 
