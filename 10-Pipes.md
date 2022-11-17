@@ -292,7 +292,7 @@ Some of the built-in pipes are:
  ```html
  <p>Enter your birthday: <input type="date" [(ngModel)]="birthday"> <br/></p>
 
-<p>Date Of birth : {{ birthday | date | uppercase}} </p>
+<p>Date Of birth : {{ birthday.date | uppercase}} </p>
 <!-- OUTPUT Date Of birth : MAY 19, 1997 -->  
  ```
    
