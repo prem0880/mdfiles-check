@@ -24,7 +24,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global prem0880
-          git config --global singaravelprem@gmail.com
+          git config --global user.name "prem0880"
+          git config --global user.email "singaravelprem@gmail.com"
           git commit -m "Convert markdown to HTML" || true
           git push
