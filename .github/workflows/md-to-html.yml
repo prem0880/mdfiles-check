@@ -12,9 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Convert markdown to HTML
         run: |
           for md_file in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep "\.md$"); do
