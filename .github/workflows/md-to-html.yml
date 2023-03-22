@@ -11,21 +11,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Get Markdown content
-        id: get-markdown
-        run: |
-          echo "::set-output name=content::$(cat $GITHUB_EVENT_PATH | jq -r '.pull_request.body')"
-        if: github.event_name == 'pull_request'
       - name: Convert to HTML
-        id: convert-to-html
-        uses: appleboy/markdown-to-html-action@master
+        uses: joshmgross/markdown-processor@v2.2.2
         with:
-          markdown: ${{ github.event_name == 'push' && github.event.inputs.message || steps.get-markdown.outputs.content }}
-          output: 'index.html'
-      - name: Commit HTML file
-        run: |
-          git config --global singaravelprem@gmail.com
-          git config --global prem0880
-          git add index.html
-          git commit -m "Add converted HTML file"
-          git push
+          files: 'README.md'
+          output-dir: 'docs'
