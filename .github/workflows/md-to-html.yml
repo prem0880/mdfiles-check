@@ -17,11 +17,16 @@ jobs:
           for md_file in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep "\.md$"); do
             html_file=$(echo "$md_file" | sed "s/\.md$/.html/")
             markdown=$(cat "$md_file")
-            html=$(gh api --method POST -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" /markdown -f "text=$markdown")
+            html=$(curl --request POST \
+              --url 'https://api.github.com/markdown' \
+              --header 'Accept: application/vnd.github.v3+json' \
+              --header 'Content-Type: text/plain' \
+              --data "$markdown")
             echo "$html" > "$html_file"
             git add "$html_file"
             cat "$html_file"
           done
+
 
       - name: Commit changes
         run: |
