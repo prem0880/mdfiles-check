@@ -17,7 +17,11 @@ jobs:
           for md_file in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep "\.md$"); do
             html_file=$(echo "$md_file" | sed "s/\.md$/.html/")
             markdown=$(cat "$md_file")
+            cat "$markdown"
+            ls
             html=$(gh api --method POST -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" /markdown -f "text=$markdown")
+            ls
+            cat "$html"
             echo "$html" > "$html_file"
             git add "$html_file"
           done
