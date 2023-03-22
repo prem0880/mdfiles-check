@@ -3,30 +3,31 @@ name: Convert Markdown to HTML
 on:
   push:
     paths:
-      - '*.md'
+      - '**/*.md'
 
 jobs:
-  convert-md-to-html:
+  convert_md_to_html:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+      - name: Install dependencies
+        run: npm install
 
-    - name: Install dependencies
-      run: npm install
+      - name: Convert markdown to HTML
+        run: |
+          for md_file in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep "\.md$"); do
+            html_file=$(echo "$md_file" | sed "s/\.md$/.html/")
+            markdown=$(cat "$md_file")
+            html=$(gh api --method POST -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" /markdown -f "text=$markdown")
+            echo "$html" > "$html_file"
+            git add "$html_file"
+          done
 
-    - name: Convert Markdown to HTML
-      run: node convert-md-to-html.js ${{ github.event.inputs.file_path }}
-
-    - name: Commit changes
-      run: |
-        git config --global prem0880
-        git config --global singaravelprem@gmail.com
-        git add .
-        git commit -m "Convert Markdown to HTML"
-        git push
+      - name: Commit changes
+        run: |
+          git config --global prem0880
+          git config --global singaravelprem@gmail.com
+          git commit -m "Convert markdown to HTML" || true
+          git push
