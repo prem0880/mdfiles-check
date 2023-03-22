@@ -3,16 +3,30 @@ name: Convert Markdown to HTML
 on:
   push:
     paths:
-      - '**/*.md' # Only trigger the workflow for Markdown file changes
+      - '*.md'
 
 jobs:
-  convert:
+  convert-md-to-html:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Convert to HTML
-        uses: joshmgross/markdown-processor@v2.2.2
-        with:
-          files: 'README.md'
-          output-dir: 'docs'
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Convert Markdown to HTML
+      run: node convert-md-to-html.js ${{ github.event.inputs.file_path }}
+
+    - name: Commit changes
+      run: |
+        git config --global prem0880
+        git config --global singaravelprem@gmail.com
+        git add .
+        git commit -m "Convert Markdown to HTML"
+        git push
