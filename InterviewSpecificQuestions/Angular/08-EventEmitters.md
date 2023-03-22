@@ -1,4 +1,4 @@
-1. In Angular, how can you interact between Parent and Child components ?
+1. In Angular, how can you interact between Parent and Child components?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
